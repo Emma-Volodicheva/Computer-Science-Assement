@@ -1,0 +1,31 @@
+public class Main {
+
+ // method below
+ // I don't remember how to do this
+
+
+
+    public static void main(String[] args) {
+       
+     int age = 13;
+     char letter = 'V';
+     boolean primoris = true;
+     double random = 12123;
+     float money = 1231231313131231313131f;
+     String country = "America";
+     System.out.println(age);
+     System.out.println(letter);
+     System.out.println(primoris);
+     System.out.println(random);
+     System.out.println(money);
+     System.out.println(country);
+
+     String[] oxbridgenames = {"Emma","Mia", "Esther", "Louis","Liam", "Josh", "Andrew", "Alex", "Max" };
+     System.out.println(oxbridgenames.length);
+     for (String element: oxbridgenames){
+            System.out.println(element);
+     }
+
+        }
+
+}
